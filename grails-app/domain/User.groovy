@@ -1,17 +1,18 @@
-
 class User {
-	Long id
-	Long version
-	
-	String email
-	String password
-	
-	String toString()
-	{"$email"}
-	
-	def constraints =
-	{
-		email(email:true)
-		password(blank:false, password: true)
-	}
+  static constraints = {
+    login(unique:true)
+    password(password:true)
+    name()
+  }
+  
+  static hasMany = [pages:Page]
+  
+  String login
+  String password
+  String name
+  
+  String toString(){
+    name
+  }
 }
+
