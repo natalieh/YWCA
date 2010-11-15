@@ -1,4 +1,4 @@
-#Wed Nov 10 21:52:12 EST 2010
-com.springsource.sts.grails.core.com.springsource.sts.grails.core.install.name=Grails
-com.springsource.sts.grails.core.use.default.install=false
+#Mon Nov 15 15:54:28 EST 2010
+com.springsource.sts.grails.core.com.springsource.sts.grails.core.install.name=Grails 1.3.5
+com.springsource.sts.grails.core.use.default.install=true
 eclipse.preferences.version=1

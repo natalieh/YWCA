@@ -11,8 +11,6 @@ class User {
   String password
   String name
   
-  String toString(){
-    name
-  }
+  String toString(){"$name"}
 }
 
