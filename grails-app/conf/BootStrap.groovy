@@ -5,12 +5,11 @@ class BootStrap {
   def init = { servletContext ->
     switch(GrailsUtil.environment){
       case "development":
-        def jdoe = new User(login:"jdoe", password:"password", name:"John Doe")
+        def jdoe = new User(login:"jdoe", password:"password", name:"John L Doe")
         jdoe.save() 
         def jsmith = new User(login:"jsmith", password:"wordpass", name:"Jane Smith")
         jsmith.save()              
       break
-
       case "production":
       break
     }
